@@ -1,0 +1,6 @@
+files
+lwimager.debhelper.log
+lwimager.postinst.debhelper
+lwimager.prerm.debhelper
+lwimager.substvars
+lwimager/

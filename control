@@ -1,0 +1,12 @@
+Source: lwimager
+Section: python
+Priority: extra
+Maintainer: Gijs Molenaar <gijs@pythonic.nl>
+Build-Depends: debhelper (>= 8.0.0),
+Standards-Version: 3.9.2
+Homepage: https://github.com/ska-sa/lwimager
+
+Package: lwimager
+Architecture: any
+Depends: ${shutil:Depends}, ${misc:Depends}
+Description: standalone radio interferometric imager derived from CASA 
