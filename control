@@ -2,12 +2,12 @@ Source: lwimager
 Section: python
 Priority: extra
 Maintainer: Gijs Molenaar <gijs@pythonic.nl>
-Build-Depends: debhelper (>= 8.0.0), cmake, libcasacore-dev, libboost-dev, wcslib-dev, libcfitsio3-dev,
- libboost-system-dev, libboost-thread-dev, gfortran
+Build-Depends: debhelper (>= 8.0.0), cmake, libcasacore-dev, libboost-dev,
+ wcslib-dev, libcfitsio3-dev, libboost-system-dev, libboost-thread-dev, gfortran
 Standards-Version: 3.9.2
 Homepage: https://github.com/ska-sa/lwimager
 
 Package: lwimager
 Architecture: any
-Depends: ${shutil:Depends}, ${misc:Depends}
+Depends: ${shutil:Depends}, ${misc:Depends}, libboost-thread1.46.1, casacore-data
 Description: standalone radio interferometric imager derived from CASA 
