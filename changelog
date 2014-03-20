@@ -1,3 +1,9 @@
+lwimager1.2 (1.2.1-2precise1) precise; urgency=low
+
+  * added missing libfftw3-dev dependency 
+
+ -- Gijs Molenaar <gijs@pythonic.nl>  Thu, 20 Mar 2014 13:52:41 +0000
+
 lwimager1.2 (1.2.1-1precise1) precise; urgency=low
 
   * Initial release

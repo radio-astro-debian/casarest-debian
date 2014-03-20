@@ -4,7 +4,7 @@ Priority: extra
 Maintainer: Gijs Molenaar <gijs@pythonic.nl>
 Build-Depends: debhelper (>= 8.0.0), cmake, casacore1.3-static, libboost-dev,
  wcslib-dev, libcfitsio3-dev, libboost-system-dev, libboost-thread-dev,
- gfortran, quilt
+ gfortran, quilt, libfftw3-dev
 Standards-Version: 3.9.2
 Homepage: https://github.com/ska-sa/lwimager
 
