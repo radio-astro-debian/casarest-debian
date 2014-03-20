@@ -1,0 +1,26 @@
+Description: enable static compile
+
+--- lwimager1.2-1.2.1.orig/CMakeLists.txt
++++ lwimager1.2-1.2.1/CMakeLists.txt
+@@ -33,9 +33,6 @@ if(NOT HDF5_FOUND)
+     set(HDF5_LIBRARIES )
+ endif(NOT HDF5_FOUND)
+ 
+-# options and defaults
+-set( BUILD_SHARED_LIBS TRUE )
+-
+ if(NOT LIBRARY_INSTALL_DIR )
+     set( LIBRARY_INSTALL_DIR lib )
+ endif(NOT LIBRARY_INSTALL_DIR )
+--- lwimager1.2-1.2.1.orig/cmake/FindWcsLib.cmake
++++ lwimager1.2-1.2.1/cmake/FindWcsLib.cmake
+@@ -36,8 +36,7 @@ if(NOT WCSLIB_FOUND)
+ 
+   find_path(WCSLIB_INCLUDE_DIR wcslib/wcs.h
+     PATHS ${WCSLIB_ROOT_DIR} PATH_SUFFIXES include)
+-  find_library(WCSLIB_LIBRARY wcs
+-    PATHS ${WCSLIB_ROOT_DIR} PATH_SUFFIXES lib)
++  find_library(WCSLIB_LIBRARY libwcs.a PATHS ${WCSLIB_ROOT_DIR} PATH_SUFFIXES lib)
+   find_library(M_LIBRARY m)
+   mark_as_advanced(WCSLIB_INCLUDE_DIR WCSLIB_LIBRARY M_LIBRARY)
+ 

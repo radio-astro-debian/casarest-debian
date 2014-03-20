@@ -1,16 +1,4 @@
-lwimager (1.3.0-3precise1) precise; urgency=low
-
-  * add casacore-data dependency
-
- -- Gijs Molenaar <gijs@pythonic.nl>  Tue, 04 Mar 2014 13:56:08 +0200
-
-lwimager (1.3.0-2precise1) precise; urgency=low
-
-  * somehow auto dependency doesn't work for boost thread
-
- -- Gijs Molenaar <gijs@pythonic.nl>  Fri, 31 Jan 2014 12:12:32 +0200
-
-lwimager (1.3.0-1precise1) precise; urgency=low
+lwimager1.2 (1.2.1-1precise1) precise; urgency=low
 
   * Initial release
 
