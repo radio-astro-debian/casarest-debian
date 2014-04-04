@@ -9,5 +9,5 @@ Homepage: https://github.com/ska-sa/lwimager
 
 Package: lwimager
 Architecture: any
-Depends: ${shutil:Depends}, ${misc:Depends}, libboost-thread1.46.1, casacore-data
+Depends: ${shutil:Depends}, ${misc:Depends}, libboost-thread1.54.0, casacore-data
 Description: standalone radio interferometric imager derived from CASA 

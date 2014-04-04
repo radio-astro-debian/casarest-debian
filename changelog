@@ -1,3 +1,9 @@
+lwimager (1.3.0-2trusty) trusty; urgency=low
+
+  * fix libboost-thread dep
+
+ -- Gijs Molenaar <gijs@pythonic.nl>  Fri, 04 Apr 2014 16:25:17 +0200
+
 lwimager (1.3.0-1trusty) trusty; urgency=low
 
   * build for trusty
