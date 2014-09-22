@@ -1,3 +1,9 @@
+lwimager (1.3.2-1trusty) trusty; urgency=medium
+
+  * new upstream release
+
+ -- Oleg Smirnov <osmirnov@gmail.com>  Mon, 22 Sep 2014 14:07:34 +0200
+
 lwimager (1.3.1-1trusty) trusty; urgency=medium
 
   [ Oleg M. Smirnov ]
