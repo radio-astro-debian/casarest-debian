@@ -1,6 +1,6 @@
 files
-lwimager.debhelper.log
-lwimager.postinst.debhelper
-lwimager.prerm.debhelper
-lwimager.substvars
-lwimager/
+casarest.debhelper.log
+casarest.postinst.debhelper
+casarest.prerm.debhelper
+casarest.substvars
+casarest/
