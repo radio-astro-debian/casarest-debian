@@ -1,7 +1,7 @@
-These are the debian package files for Pyxis:
+These are the debian package files for casarest:
 
-https://github.com/ska-sa/lwimager/
+https://github.com/casacore/casarest
 
 The packages are uploaded the the SKA Ubuntu PPA repository:
 
-https://launchpad.net/~ska-sa/
+https://launchpad.net/~radio-astro/
