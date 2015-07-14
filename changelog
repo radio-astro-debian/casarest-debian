@@ -1,48 +1,5 @@
-lwimager (1.3.3-1trusty) trusty; urgency=medium
-
-  * new upstream release
-
- -- Oleg Smirnov <osmirnov@gmail.com>  Tue, 23 Sep 2014 11:27:57 +0200
-
-lwimager (1.3.2-1trusty) trusty; urgency=medium
-
-  * new upstream release
-
- -- Oleg Smirnov <osmirnov@gmail.com>  Mon, 22 Sep 2014 14:07:34 +0200
-
-lwimager (1.3.1-1trusty) trusty; urgency=medium
-
-  [ Oleg M. Smirnov ]
-  * new upstream release
-
- -- Oleg Smirnov <osmirnov@gmail.com>  Fri, 12 Sep 2014 10:46:33 +0000
-
-lwimager (1.3.0-2trusty) trusty; urgency=low
-
-  * fix libboost-thread dep
-
- -- Gijs Molenaar <gijs@pythonic.nl>  Fri, 04 Apr 2014 16:25:17 +0200
-
-lwimager (1.3.0-1trusty) trusty; urgency=low
-
-  * build for trusty
-
- -- Gijs Molenaar <gijs@pythonic.nl>  Fri, 04 Apr 2014 14:09:15 +0200
-
-lwimager (1.3.0-3precise1) precise; urgency=low
-
-  * add casacore-data dependency
-
- -- Gijs Molenaar <gijs@pythonic.nl>  Tue, 04 Mar 2014 13:56:08 +0200
-
-lwimager (1.3.0-2precise1) precise; urgency=low
-
-  * somehow auto dependency doesn't work for boost thread
-
- -- Gijs Molenaar <gijs@pythonic.nl>  Fri, 31 Jan 2014 12:12:32 +0200
-
-lwimager (1.3.0-1precise1) precise; urgency=low
+casarest (1.3.0-1trusty) trusty; urgency=low
 
   * Initial release
 
- -- Gijs Molenaar <gijs@pythonic.nl>  Fri, 28 Jan 2014 14:35:59 +0200
+ -- Gijs Molenaar <gijs@pythonic.nl>  Tue, 14 Jun 2015 12:35:59 +0100
