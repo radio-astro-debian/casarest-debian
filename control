@@ -10,5 +10,5 @@ Homepage: https://github.com/casacore/casarest/
 Package: casarest
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, casacore-data
-Conflicts: lwimager
+Conflicts: lwimager, libcasacore-dev
 Description: standalone radio interferometric imager derived from CASA 
